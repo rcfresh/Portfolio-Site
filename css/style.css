@@ -13,13 +13,6 @@ body {
   color: #4a4a4a;
 }
 
-header {
-  background-color: #ff44c4;
-  padding: 10px 5px 15px 5px;
-  margin: 10px;
-  border-bottom: 3px solid #4a4a4a;
-}
-
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -98,4 +91,35 @@ a:active { /* selected link */
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #ffe3c3;
+  padding: 10px 5px 15px 5px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }
