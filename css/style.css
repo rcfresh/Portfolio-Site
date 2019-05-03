@@ -157,15 +157,15 @@ nav > ul > li > a:visited {
 }
 
 .columnLeft {
-  width: 60%;
+  width: 68%;
   float: left;
   padding: 0px;
 }
 
 .columnRight{
-  width: 35%;
+  width: 30%;
   float: right;
-  padding: 0 10 0 10;
+  padding: 0 20 0 20;
 }
 
 #contact {
@@ -193,4 +193,9 @@ nav > ul > li > a:visited {
   margin-top: 15px;
   width: 100%;
   text-align: center;
+}
+
+footer {
+  float: left;
+  margin-top: 50px;
 }
