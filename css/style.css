@@ -352,3 +352,7 @@ footer {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+html {
+  scroll-behavior: smooth;
+}
