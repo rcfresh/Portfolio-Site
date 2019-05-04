@@ -115,7 +115,7 @@ a:active {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 header {
@@ -231,6 +231,10 @@ footer {
     width: auto;
     float: right;
     margin-top: 100px;
+  }
+
+  .logo {
+    max-width: 250px;
   }
 
   .col-md-6 {
