@@ -278,7 +278,7 @@ footer {
 
   .col-md-6 {
   width: 50%;
-  min-width: 300px;
+  min-width: 400px;
   }
 
   [class*="col-"] {
@@ -360,4 +360,5 @@ html {
 
 .full-width {
   width: 100%;
+  background-color: #f38822;
 }
