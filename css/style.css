@@ -278,6 +278,7 @@ footer {
 
   .col-md-6 {
   width: 50%;
+  min-width: 300px;
   }
 
   [class*="col-"] {
@@ -355,4 +356,8 @@ footer {
 
 html {
   scroll-behavior: smooth;
+}
+
+.full-width {
+  width: 100%;
 }
