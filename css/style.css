@@ -103,6 +103,7 @@ a:active {
   float: left;
   padding-bottom: 20px;
   border-bottom: 1px solid #c4c4c4;
+  width: 100%;
 }
 
 #hero h1 {
@@ -278,7 +279,6 @@ footer {
 
   .col-md-6 {
   width: 50%;
-  min-width: 400px;
   }
 
   [class*="col-"] {
@@ -297,12 +297,15 @@ footer {
 @media only screen and (min-width: 1024px) {
   .col-lg-7 {
     width: 60%;
-    min-width: 400px;
   }
 
   .col-lg-5 {
     width: 40%;
   }
+}
+
+.column {
+  position: relative;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -315,8 +318,15 @@ footer {
 
 .berlin-illustration {
   width: 100%;
-  min-width: 400px;
-  max-width: 600px;
+  min-width: 300px;
+  max-width: 800px;
+  height: auto;
+}
+
+.superhero_illustration {
+  width: 100%;
+  min-width: 100px;
+  max-width: 800px;
   height: auto;
 }
 
@@ -360,10 +370,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.full-width {
-  width: 100%;
-  background-color: #f38822;
-}
+
 
 @-webkit-keyframes kf_el_S4jhmYoSNb_an_N_Te0KtrX {
   0% {
