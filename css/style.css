@@ -203,7 +203,7 @@ nav > ul > li > a:visited {
 .columnRight{
   width: 30%;
   float: right;
-  padding: 0 20 0 20;
+  padding: 0 20px 0 20px;
 }
 
 #contact {
@@ -237,6 +237,10 @@ footer {
   width: 100%;
   float: left;
   margin-top: 50px;
+}
+
+.hero {
+  width: 100vw;
 }
 
 .paddedImg {
